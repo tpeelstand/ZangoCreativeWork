@@ -1,0 +1,88 @@
+/*
+CTC Separate Stylesheet
+Updated: 2019-02-03 17:11:43
+Theme Name: Shapely Child
+Theme URI: https://colorlib.com/wp/themes/shapely
+Template: shapely
+Author: colorlib
+Author URI: https://colorlib.com/
+Description: Shapely is a powerful and versatile one page WordPress theme with pixel perfect design and outstanding functionality. It is by far the most advanced free WordPress theme available today with loads of unmatched customization options. This theme comes with several homepage widgets that can be used to add portfolio, testimonials, parallax sections, your product or service information, call for action and much more. Shapely supports most free and premium WordPress plugins such as WooCommerce, Jetpack, Gravity Forms, Contact Form 7, Yoast SEO, Google Analytics by Yoast and much more. This theme is the best suited for business, landing page, portfolio, ecommerce, store, local business, personal websites but can be tweaked to be used as blog, magazine or any other awesome website while highlighting its unique one page setup. This is going to be the last WordPress theme you will ever want to use because it is so much better than anything you have seen. Needless to say that this theme is SEO friendly thanks to its well optimized strucutre. Shapely theme is mobile friendly and fully responsive making it your best multipurpose partnert for any project and website. Child Theme customized by WebNiobium.
+Tags: left-sidebar,right-sidebar,featured-images,post-formats,threaded-comments,theme-options,photography,portfolio,full-width-template,grid-layout
+Version: 1.2.4.1549213903
+*/
+/* Font imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* Updating Default Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, table, blockquote, input {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+/* Default Colors */
+.bg-grey {
+    background: #E3E4E8;
+}
+/* Navigation Styles Updates */
+.main-navigation .menu li a {
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #4c4c4c;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    max-width: 100%;
+    white-space: normal;
+}
+
+
+/* Updating TablePress Styles */
+#tablepress-1 tr {
+    display: grid;
+    width: 200px;
+}
+
+#tablepress caption {
+    caption-side: bottom;
+    text-align: left;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.tablepress td, .tablepress th {
+    padding: 0 !important;
+    border: none;
+    background: 0 0;
+    text-align: left;
+    float: none!important;
+}
+.tablepress img {
+   margin: 0;
+   padding: 0;
+   border: none;
+   max-width: none;
+   height: 75px;
+   border-radius: 50px;
+}
+.tablepress tbody td, .tablepress tfoot th {
+    border-top: 1px solid transparent !important;
+}
+
+/* Footer Style Updates */
+footer {
+    padding: 72px 0 20px;
+}
+.copyright {
+    color: #999999;
+    text-align: center;
+}
+.copyright a {
+    color: #999999;
+}
